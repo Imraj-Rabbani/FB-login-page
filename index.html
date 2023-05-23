@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/input.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Facebook Landing Page</title>
+  </head>
+  <body>
+   
+    <div class="h-screen ">
+      <div class="h-5/6 bg-slate-100 flex justify-center items-center">
+        <div class="container w-4/6 h-4/6 flex">
+          <div
+            class="w-1/2 h-full flex flex-col justify-center -mt-16"
+          >
+            <img class="h-32 w-96 -ml-10" src="logo.svg" alt="" />
+            <div class="font-medium text-2xl tracking-wide">
+              Facebook helps you connect and share with the people in your life.
+            </div>
+          </div>
+          <div class=" w-1/2 mb-12 mt-4 mx-12 bg-white flex flex-col items-center rounded-md border-2 border-slate-300 relative">
+            <input class="m-4 w-96 h-12 outline-blue-600 border-slate-300 border-2 rounded-md pl-4 mt-8" type="email" placeholder="Email Address or Phone number"><br>
+            <input class="m-4 w-96 h-12 outline-blue-600 border-slate-300 border-2 rounded-md pl-4 -mt-4" type="password" placeholder="Password">
+            <button class="rounded-md bg-blue-600 w-96 h-12 text-white text-lg font-bold ">Log in</button>
+            <a class="text-blue-600 mt-4 cursor-pointer hover:underline " href="#">Forgotten password?</a>
+            <hr>
+            <button class="rounded-md bg-green-500 px-4 hover:bg-green-600 w-fit h-12 text-white text-lg font-bold mt-8 ">Create new account</button>
+            <span class="absolute -bottom-10"> <span class=" font-bold hover:underline cursor-pointer "> Create a Page </span> for a celebrity, brand or business.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
