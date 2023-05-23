@@ -1,3 +1,3 @@
 # FB-login-page
-Created FB login page clone to practice my Tailwind.
+Cloned a FB login page to practice my Tailwind.
 Used HTML and Tailwind CSS.
